@@ -93,7 +93,7 @@ justifyContent: 'space-between',
 alignItems: 'center',
 },
 deleteButton: {
-background: 'none',
+backgroundColor: 'red',
 border: 'none',
 fontSize: '18px',
 cursor: 'pointer',
