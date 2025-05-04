@@ -42,7 +42,7 @@ style={styles.input}
 <span onClick={() => toggleTask(index)} style={{ cursor: 'pointer' }}>
 {index + 1}. {task.completed ? ' ' : ' '} {task.text}
 </span>
-<button onClick={() => deleteTask(index)} style={styles.deleteButton}>
+<button onClick={() => deleteTask(index)} style={styles.deleteButton}> Delete 
 </button>
 </li>
 ))}
@@ -94,6 +94,7 @@ alignItems: 'center',
 },
 deleteButton: {
 backgroundColor: 'red',
+color:'white',
 border: 'none',
 fontSize: '18px',
 cursor: 'pointer',
